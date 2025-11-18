@@ -10,8 +10,8 @@
         <!-- sidebar -->
         <?php include('includes/sidebar.php'); ?>
         <!-- main area -->
-         <main class="p-4 flex-grow-1 bg-opacity-50" style="color: #333333;">
-            <h1>Courses Dashboard</h1>
+         <main class="p-5 flex-grow-1 bg-opacity-50" style="color: #333333;">
+            <h1>Lecture Slides</h1>
             <!-- <p>Explore your courses and materials here.</p> -->
         <section class="section dashboard pt-3">
       <div class="row d-flex flex-nowrap flex-row justify-content-center">

@@ -10,7 +10,7 @@
         <!-- sidebar -->
         <?php include('includes/sidebar.php'); ?>
         <!-- main area -->
-         <main>
+         <main class="p-5 flex-grow-1 bg-opacity-50" style="color: #333333;">
             <h1 class="">User Profile</h1>
             
          </main>

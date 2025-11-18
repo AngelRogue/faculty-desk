@@ -10,7 +10,7 @@
         <!-- sidebar -->
         <?php include('includes/sidebar.php'); ?>
         <!-- main area -->
-         <main class="p-4 flex-grow-1 bg-opacity-50" style="color: #333333;">
+         <main class="p-5 flex-grow-1 bg-opacity-50" style="color: #333333;">
             <h1>Courses Dashboard</h1>
             <!-- <p>Explore your courses and materials here.</p> -->
         <section class="section dashboard pt-3">
@@ -21,7 +21,7 @@
           <div class="row g-4 justify-content-center" id="allcard">
             <!-- Card 1 -->            
             <div class="col-xxl-4 col-md-6 d-flex align-items-stretch">
-              <a href="/lecture-slides.html" class="card-link w-100">
+              <a href="/lecture-slides.php" class="card-link w-100">
                 <div class="card info-card card-1 h-150">
                   <div class="d-flex align-items-center h-100">
                     <div class="rounded-circle d-flex align-items-center justify-content-center" style="font-size:32px;">
