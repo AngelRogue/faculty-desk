@@ -1,0 +1,97 @@
+/* Show it is fixed to the top */
+body {
+    position: relative;
+    padding-top: 3.5rem; /* Adjusted padding to accommodate the fixed navbar */
+    background-color: #FCFBF8;
+}
+h1, h2, h3, h4, h5, h6 {color: #333333;}
+p {color: #333333;}
+    .info-card {
+      border: none;
+      border-radius: 20px;
+      padding: 25px;
+      color: #333333;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      height: 160px;
+    }
+
+    .info-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-icon {
+      width: 65px;
+      height: 65px;
+      background-color: rgba(255, 255, 255, 0.25);
+      font-size: 32px;
+    }
+
+    .info-card h5 {
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .info-card p {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    /* === Color themes === */
+    .card-1 {
+      background: linear-gradient(135deg, #007bff, #00b4ff);
+    }
+
+    .card-2 {
+      background: linear-gradient(135deg, #28a745, #63e6be);
+    }
+
+    .card-5 {
+      background: linear-gradient(135deg, #ffc107, #ffda6a);
+    }
+
+    .card-4 {
+      background: linear-gradient(135deg, #e83e8c, #ff77c2);
+    }
+
+    .card-3 {
+      background: linear-gradient(135deg, #6610f2, #a070ff);
+    }
+
+    .card-6 {
+      background: linear-gradient(135deg, #fd7e14, #ffb067);
+    }
+
+    /* Clickable cards */
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card-link:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* #allcard {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    } */
+
+    .sidebar {
+      position: fixed;
+      
+      width: 250px;
+      height: 100vh;
+      background-color: #003F8A;
+      box-shadow: 5px 0px 10px 3px rgba(0, 0, 0, 0.3);
+      overflow-y: auto;
+      /* z-index: 1000;  */
+    }
+    main {
+      overflow-y: auto;
+      min-height: 83.3vh ;
+      margin-left: 250px; /* Width of the sidebar */
+    }
