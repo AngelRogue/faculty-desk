@@ -25,7 +25,7 @@
                 <div class="card info-card card-1 h-150">
                   <div class="d-flex align-items-center h-100">
                     <div class="rounded-circle d-flex align-items-center justify-content-center" style="font-size:32px;">
-                      <i class="bi bi-book"></i>
+                       <i class="bi bi-calendar3"></i>
                     </div>
                     <div class="ps-3">
                       <h5>Lecture Slides</h5>
@@ -42,7 +42,7 @@
                 <div class="card info-card card-2 h-150">
                   <div class="d-flex align-items-center h-100">
                     <div class="rounded-circle d-flex align-items-center justify-content-center" style="font-size:32px;">
-                      <i class="bi bi-newspaper"></i>
+                      <i class="bi bi-calendar3"></i>
                     </div>
                     <div class="ps-3">
                       <h5>Past Papers</h5>
@@ -59,7 +59,7 @@
                 <div class="card info-card card-5 h-150">
                   <div class="d-flex align-items-center h-100">
                     <div class="rounded-circle d-flex align-items-center justify-content-center" style="font-size:32px;">
-                      <i class="fa-regular fa-handshake"></i>
+                      <i class="bi bi-calendar3"></i>
                     </div>
                     <div class="ps-3">
                       <h5>Contribute</h5>
@@ -76,7 +76,7 @@
                 <div class="card info-card card-6 h-150">
                   <div class="d-flex align-items-center h-100">
                     <div class="rounded-circle d-flex align-items-center justify-content-center" style="font-size:32px;">
-                      <i class="bi bi-telegram"></i>
+                     <i class="bi bi-calendar3"></i>
                     </div>
                     <div class="ps-3">
                       <h5>Request Module</h5>
